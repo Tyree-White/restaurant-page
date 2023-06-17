@@ -1,4 +1,9 @@
 function createRestaurantContactPage() {
+    const contentDiv = document.querySelector('#content');
+    if (contentDiv) {
+        contentDiv.remove();
+    }
+    
     const body = document.querySelector('body');
     const header = document.createElement('div');
     header.classList.add('header');
