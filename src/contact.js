@@ -13,9 +13,9 @@ function createRestaurantContactPage() {
     nav.appendChild(navList);
 
     const home = document.createElement('button');
-    home.classList.add('home');
+    home.classList.add('home-btn');
     const menu = document.createElement('button');
-    menu.classList.add('menu');
+    menu.classList.add('menu-btn');
     const contact = document.createElement('button');
     contact.classList.add('contact-btn');
     home.textContent = 'Home';

@@ -5,6 +5,10 @@ body {
     background-size: cover;
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
 }
 
 .header {
@@ -16,6 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100vw;
 }
 
 .header p {
@@ -44,4 +49,55 @@ nav ul button {
 #content {
     background-color: #d3b683;
     border-radius: 4vh;
+    width: 50vw;
+    align-self: center;
+    padding: 2vh;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.home p {
+    font-size: 2.5vh;
+}
+
+.contact {
+    text-align: center;
+    font-size: 6.5vh;
+}
+
+.contact :first-child {
+    margin-top: 2vh;
+}
+
+.contact div {
+    font-size: 5vh;
+}
+
+.contact p {
+    font-size: 3.5vh;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.menu div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu img {
+    width: 40vh;
+    height: 40vh;
 }

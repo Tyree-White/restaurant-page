@@ -14,9 +14,9 @@ function createRestaurantHomePage() {
     nav.appendChild(navList);
 
     const home = document.createElement('button');
-    home.classList.add('home');
+    home.classList.add('home-btn');
     const menu = document.createElement('button');
-    menu.classList.add('menu');
+    menu.classList.add('menu-btn');
     const contact = document.createElement('button');
     contact.classList.add('contact-btn');
     home.textContent = 'Home';
@@ -45,7 +45,7 @@ function createRestaurantHomePage() {
     locationDiv.textContent = 'Location';
 
     const aboutInfo = document.createElement('p');
-    aboutInfo.textContent = "Benvenuto a Medici! Welcome to Medici's where we serve the finest Italian food in the world from the most renowned Italian chefs. Medici's has been the origin to 100s of world renowned chefs, as well signature foods since it's founding in 1502. Some of our classics are the Spaghetti All'Assassina(Assassin's Spaghetti), Italian Rataouille, and our Italian Meat Lover's Pizza."
+    aboutInfo.textContent = "Benvenuto a Medici! Welcome to Medici's where we serve the finest Italian food in the world from the most renowned Italian chefs. Medici's has been the origin to over 100 of the worlds most renowned chefs, as well signature foods since it's founding in 1502. Some of our classics are the Spaghetti all'Assassina(Assassin's Spaghetti), Italian Rataouille, and our Steak da Firenze."
     aboutDiv.appendChild(aboutInfo);
 
     const hoursInfo = document.createElement('p');
