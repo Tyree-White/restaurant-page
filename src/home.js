@@ -26,7 +26,7 @@ function createRestaurantHomePage() {
     nav.appendChild(navList);
 
     const home = document.createElement('button');
-    home.classList.add('home-btn');
+    home.classList.add('home-btn', 'active');
     const menu = document.createElement('button');
     menu.classList.add('menu-btn');
     const contact = document.createElement('button');

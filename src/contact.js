@@ -30,7 +30,7 @@ function createRestaurantContactPage() {
     const menu = document.createElement('button');
     menu.classList.add('menu-btn');
     const contact = document.createElement('button');
-    contact.classList.add('contact-btn');
+    contact.classList.add('contact-btn', 'active');
     home.textContent = 'Home';
     menu.textContent = 'Menu';
     contact.textContent = 'Contact';
