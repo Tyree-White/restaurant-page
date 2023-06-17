@@ -1,7 +1,15 @@
+import createRestaurantHomePage from "./home";
+import createRestaurantContactPage from "./contact";
+
 function createRestaurantMenuPage() {
     const contentDiv = document.querySelector('#content');
     if (contentDiv) {
         contentDiv.remove();
+    }
+
+    const headerDiv = document.querySelector('.header')
+    if (headerDiv) {
+        headerDiv.remove();
     }
 
     const body = document.querySelector('body');
@@ -114,6 +122,9 @@ function createRestaurantMenuPage() {
     menuItem6.appendChild(menuDesc6);
     menuItem7.appendChild(menuDesc7);
     menuItem8.appendChild(menuDesc8);
+
+    home.addEventListener('click', createRestaurantHomePage);
+    contact.addEventListener('click', createRestaurantContactPage);
 }
 
 export default createRestaurantMenuPage;
