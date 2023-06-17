@@ -88,6 +88,7 @@ nav ul button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 1fr);
+    min-width: fit-content;
 }
 
 .menu div {
@@ -95,6 +96,7 @@ nav ul button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 50vh;
 }
 
 .menu img {
