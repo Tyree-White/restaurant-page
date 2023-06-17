@@ -14,8 +14,11 @@ function createRestaurantHomePage() {
     nav.appendChild(navList);
 
     const home = document.createElement('button');
+    home.classList.add('home');
     const menu = document.createElement('button');
+    menu.classList.add('menu');
     const contact = document.createElement('button');
+    contact.classList.add('contact-btn');
     home.textContent = 'Home';
     menu.textContent = 'Menu';
     contact.textContent = 'Contact';
@@ -50,7 +53,7 @@ function createRestaurantHomePage() {
     hoursDiv.appendChild(hoursInfo);
 
     const locationInfo = document.createElement('p');
-    locationInfo.textContent = 'Piazzale degli Medici, 6. 50122, Firenze Fl, Italy';
+    locationInfo.textContent = 'Piazzale degli Medici, 6, 50122, Firenze Fl, Italy';
     locationDiv.appendChild(locationInfo);
 }
 
