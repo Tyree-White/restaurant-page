@@ -43,7 +43,6 @@ nav ul button {
     padding-bottom: 2vh;
     font-size: 4vh;
     border: none;
-    border-bottom: .25vh solid white;
 }
 
 #content {
@@ -108,4 +107,8 @@ nav ul button {
 .menu img {
     width: 40vh;
     height: 40vh;
+}
+
+.active {
+    border-bottom: .25vh solid white;
 }
