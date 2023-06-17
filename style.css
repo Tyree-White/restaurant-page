@@ -96,7 +96,13 @@ nav ul button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50vh;
+    width: 40vh;
+    text-align: center;
+    font-size: 5vh;
+}
+
+.menu div p {
+    font-size: 3vh;
 }
 
 .menu img {
